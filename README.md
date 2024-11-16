@@ -46,7 +46,7 @@ The core AI system uses a **Convolutional Neural Network (CNN)** based on **Mobi
   - 40 epochs of training with a validation split.
   - Early stopping and best-model checkpointing ensured only the most accurate model was retained.
  
-  - [image]
+  - ![Alt text](./results.jpg)
 
 ### **3. Results**
 - **Performance**:
