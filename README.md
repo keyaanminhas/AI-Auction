@@ -46,14 +46,15 @@ The core AI system uses a **Convolutional Neural Network (CNN)** based on **Mobi
   - 40 epochs of training with a validation split.
   - Early stopping and best-model checkpointing ensured only the most accurate model was retained.
  
-  - ![Alt text](./results.jpg)
+  - ![90+ accuracy](./Training.png)
 
 ### **3. Results**
 - **Performance**:
   - High training and validation accuracy, with minimal overfitting due to dropout and L2 regularization.
   - Robust performance on unseen test images, with consistent classification across all object classes.
+  - ![](./result.png)
 - **Model Outputs**: Predictions are probabilities for each of the seven classes, with the highest probability determining the final classification.
-
+    
 ### **4. Model Deployment**
 The trained model was saved in two formats:
 - `.keras`: For compatibility with TensorFlow 2.x frameworks.
